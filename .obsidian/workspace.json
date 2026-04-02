@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bounded context.md",
+                "file": "deno vs node.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bounded context"
+              "title": "deno vs node.js"
             }
           }
         ],
@@ -334,6 +334,7 @@
   },
   "active": "6576f0b26dda0c30",
   "lastOpenFiles": [
+    "bounded context.md",
     "debugging.md",
     "domain driven design.md",
     "deno vs node.js.md",
@@ -342,7 +343,6 @@
     "monade.md",
     "ubiquitous language.md",
     "principle of least power.md",
-    "bounded context.md",
     "execution boundary.md",
     "effect.md",
     "git commands.md",
