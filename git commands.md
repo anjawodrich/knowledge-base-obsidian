@@ -3,6 +3,17 @@
 origin remote
 upstream remote
 
+
+
+
+geforktes projekt
+
+remote origin vom geforkten projekt hinzufuegen
+```bash
+git remote add upstream https://gitlab.com/hesxenon/andale.git
+```
+
+
 ## Grundlegende Befehle
 
 ```bash

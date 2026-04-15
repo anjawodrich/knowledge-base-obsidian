@@ -1,4 +1,13 @@
 
+Gute Programmierpraxis ist der Verzicht auf globale oder statische Variablen. Denn schon in einem Single-Threaded-Programm können diese, wenn unkontrolliert verwendet, zu unerwarteten Side Effects führen. 
+
+**Beispiel:** Funktion A und Funktion B verwenden beide die globale Variable `count = 5` und erhöhen sie jeweils um 1. Erwartet wird das Endergebnis 7 – doch wenn Funktion B den Wert liest, bevor Funktion A ihren aktualisierten Wert zurückgeschrieben hat, rechnen beide mit 5 und das Ergebnis ist 6.
+
+Noch schwieriger zu kontrollieren ist der Zustand in einem Multithreading-Programm. Wenn viele Operationen parallel laufen und dabei auf dieselbe globale Variable zugreifen, hängt das Ergebnis entscheidend von der Reihenfolge der Threads ab. Man nennt dies [[race condition]]. das Programm wird dadurch unvorhersehbar.
+
+Und hier kommen Monads ins Spiel. Sie versuchen nicht side effects oder globalen state zu verhindern. Sondern sie versuchen ihn zu kontrollieren indem sie das Typ System verwenden. Hier ueberprueft der compiler die Richtigkeit der Monaden. 
+
+
 Eine Monade ist ein **Entwurfsmuster aus der funktionalen Programmierung**, das es erlaubt, Berechnungen zu verketten, die einen bestimmten Kontext tragen – z.B. einen möglichen Fehler, einen optionalen Wert oder einen Nebeneffekt.
 
 
@@ -197,15 +206,13 @@ Jede Monade ist auch ein Funktor – aber nicht umgekehrt.
 
 - Grundlage von Effect.ts, fp-ts, und funktionaler Programmierung allgemein
 
-## Weiterführend
-
   
 
-- `fp-ts` – funktionale Programmierung in TypeScript
-
-- `effect` – modernes Effect-System, baut auf Monaden auf
+- [[effect]] – baut auf Monaden auf
 
 - *"Monads for the Curious Programmer"* – (https://bartoszmilewski.com/2011/01/09/monads-for-the-curious-programmer-part-1/)
 - https://bartoszmilewski.com/2011/03/14/monads-for-the-curious-programmer-part-2/
 
-- Haskell lernen – Monaden sind dort zentral und werden sehr klar erklärt
+
+
+

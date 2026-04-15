@@ -1,0 +1,1 @@
+Ist ein Reference for Comments, das eine technische Dokumentation ist und von der [[Internet Engineering Task Force (IETF)]] veroeffentlicht wird. 

@@ -160,9 +160,135 @@
               "icon": "lucide-file",
               "title": "deno vs node.js"
             }
+          },
+          {
+            "id": "90b226bd4b4d1a82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gpu vs cpu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gpu vs cpu"
+            }
+          },
+          {
+            "id": "a92fad9786450b9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "javascript"
+            }
+          },
+          {
+            "id": "5ba6aeb3af9d6cff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript - runtime und kompilieren.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "javascript - runtime und kompilieren"
+            }
+          },
+          {
+            "id": "a998a1cf7df5d504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "typescript"
+            }
+          },
+          {
+            "id": "1f92a93725b12955",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript hands-on.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "typescript hands-on"
+            }
+          },
+          {
+            "id": "027510bea13cd18c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "monade.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "monade"
+            }
+          },
+          {
+            "id": "f6c047120d45867f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
+          },
+          {
+            "id": "f34e19191238db0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Internet Engineering Task Force (IETF).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Internet Engineering Task Force (IETF)"
+            }
+          },
+          {
+            "id": "48408f77d123566b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git commands"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -332,20 +458,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6576f0b26dda0c30",
+  "active": "48408f77d123566b",
   "lastOpenFiles": [
+    "RFC.md",
+    "Internet Engineering Task Force (IETF).md",
+    "TODO.md",
+    "monade.md",
+    "race condition.md",
+    "imperative vs declarative programming.md",
+    "typescript hands-on.md",
+    "typescript.md",
+    "javascript - runtime und kompilieren.md",
+    "javascript.md",
+    "gpu vs cpu.md",
+    "deno vs node.js.md",
     "bounded context.md",
     "debugging.md",
     "domain driven design.md",
-    "deno vs node.js.md",
     "pnpm vs npm.md",
     "RESTful Web APIs.md",
-    "monade.md",
     "ubiquitous language.md",
     "principle of least power.md",
     "execution boundary.md",
     "effect.md",
-    "git commands.md",
-    "TODO.md"
+    "git commands.md"
   ]
 }
